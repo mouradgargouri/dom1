@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a16a75dee5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <section>
+        <div class="titre">
+            <p1>
+                shopping bag total =
+            </p1>
+            <p2 id="total">
+                0
+            </p2>
+            <p3>
+                dollars.
+            </p3>
+            <!-- shopping bag total -->
+        </div>
+        <div class="article1">
+
+                <div>
+                  <i class="fas fa-skull" onclick="remove()"></i>
+                  <i class="fas fa-heart" id="heart" onclick="heart1()"></i>
+                </div>
+                <img class="image" src="./18806709_500_A.jpg" alt="espadrille">
+                <span class="product-name"><strong>espadrille</strong><br> White</span>
+                <div class="btns">
+                  <span class="btn" onclick="inc()">+</span>
+                  <span class="btn" id="product-qtn">0</span>
+                  <span class="btn"  onclick="dec()">-</span>
+                </div>
+                <p class="product-price"><span id="product1price">0</span> <span>$</span></p>
+            </div>
+        
+        <div>
+            <!-- article2 -->
+        </div>
+    </section>
+    
+</body>
+<script src="./script.js"></script>
+</html>

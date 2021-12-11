@@ -1,0 +1,36 @@
+.body {
+    max-width: 1170 px;
+    background-color: aqua;
+}
+section{
+    background-color: white;
+    padding: 30px;
+    display: block;
+}
+.titre{
+    margin: 10px;
+    border-bottom: 10 red;
+   
+  
+}
+.article1{
+    
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: red 2px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right:50px;
+        margin-left:50px;
+      
+        
+}
+.btn {
+    margin: 0 20px;
+    cursor: pointer;
+  }
+
+.image{ width: 100px;
+  height: 100px;
+}
